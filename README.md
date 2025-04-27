@@ -17,9 +17,6 @@ This project is a Selenium-based automation framework designed for testing the O
     * Registration
     * Search Functionality
 
-## Project Structure
-
-├── src/│   ├── main/│   │   └── java/│   │       └── pages/            # Page Object Classes│   │           ├── AddEmployeePage.java│   │           ├── LoginPage.java│   │           ├── NewsPage.java│   │           ├── RegistrationPage.java│   │           └── SearchPage.java│   │       └── utils/          #  (Optional) Utility classes│   │           └── ExcelUtils.java # Example utility (if you have one)│   └── test/│   │       └── java/│   │       ├── base/             # Base test setup│   │           └── BaseTest.java│   │       └── tests/            # Test Classes│   │           ├── AddEmployeeTest.java│   │           ├── LoginTest.java│   │           ├── NewsPageTest.java│   │           └── RegistrationTest.java│   ├── resources/        # Test data, properties files (if needed)├── pom.xml             # Maven dependency management└── README.md           # Project documentation
 ## Getting Started
 
 ### Prerequisites
@@ -64,9 +61,11 @@ This project is a Selenium-based automation framework designed for testing the O
 ### Running the Tests
 
 1.  **Build the project:** Use your IDE's build command (e.g., "Build Project" in IntelliJ IDEA) or use the Maven command:
+
     ```bash
     mvn clean install
     ```
+
 2.  **Run the tests:**
 
     * In your IDE, locate the test classes (under `src/test/java`) or the TestNG configuration file (if you have one).
@@ -94,8 +93,11 @@ This project is a Selenium-based automation framework designed for testing the O
 
 ## Test Cases
 
-* `AddEmployeeTest`: Tests the functionality of adding a new employee.
+
 * `LoginTest`: Tests the login functionality.
-* `NewsPageTest`: Tests the News feed functionality.
 * `RegistrationTest`: Tests the Registration functionality.
+* `AddEmployeeTest`: Tests the functionality of adding a new employee.
+* `SearchUserTest`: Tests the functionality of adding a new employee.
+* `NewsPageTest`: Tests the News feed functionality.
+
 
