@@ -11,18 +11,19 @@ This project is a Selenium-based automation framework designed for testing the O
 * WebDriver Management: Uses WebDriver to automate browser interactions.
 * Modular Design: Separates test logic, page interactions, and base setup for better maintainability.
 * Test Cases:
-    * Add Employee
-    * Login
-    * News feed (Share Photo and Video)
-    * Registration
-    * Search Functionality
+   
+     * Login
+     * User Registration
+     * Employee Creation
+     * Search Functionality
+     * News feed (Share Photo and Video)
 
 ## Getting Started
 
 ### Prerequisites
 
 * Java Development Kit (JDK): Version 8 or higher.
-* Web Browser: Chrome (recommended) or Firefox.
+* Web Browser: Chrome 
 * IDE (Integrated Development Environment): IntelliJ IDEA, Eclipse, or similar.
 * Selenium WebDriver: Included as a dependency (see `pom.xml`).
 * WebDriverManager: Included as a dependency to manage the browser drivers.
@@ -32,7 +33,7 @@ This project is a Selenium-based automation framework designed for testing the O
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    git clone (https://github.com/buddhini12/Selenium_WebAutomation.git)
     ```
 
 2.  **Open the project in your IDE:**
@@ -84,15 +85,14 @@ This project is a Selenium-based automation framework designed for testing the O
 
 ## Page Object Classes
 
-* `LoginPage`: Handles interactions on the OrangeHRM login page.
-* `AddEmployeePage`: Handles interactions on the Add Employee page.
-* `NewsPage`: Handles interactions on the News Page.
-* `RegistrationPage`: Handles interactions on the Registration Page.
-* `SearchPage`: Handles interactions on the Search Page.
 * `BasePage`: Provides common functionality for all page classes (WebDriver initialization, waiting for elements, etc.).
+* `LoginPage`: Handles interactions on the OrangeHRM login page.
+* `RegistrationPage`: Handles interactions on the Registration Page.
+* `AddEmployeePage`: Handles interactions on the Add Employee page.
+* `SearchPage`: Handles interactions on the Search Page.
+* `NewsPage`: Handles interactions on the News Page.
 
 ## Test Cases
-
 
 * `LoginTest`: Tests the login functionality.
 * `RegistrationTest`: Tests the Registration functionality.
