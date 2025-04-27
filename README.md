@@ -54,7 +54,7 @@ This project is a Selenium-based automation framework designed for testing the O
 * **Base URL:** The base URL for the OrangeHRM application is defined in the `BaseTest.java` class. You can modify it there if needed:
 
     ```java
-    protected String orangeHRMUrl = "[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)";
+    protected String orangeHRMUrl = "[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]";
     ```
 
 * **Test Data:** Test data (usernames, passwords, etc.) is currently hardcoded in the test classes. For more robust testing, consider using external data sources like Excel files or property files. If you use external files, create a  `resources`  directory.
